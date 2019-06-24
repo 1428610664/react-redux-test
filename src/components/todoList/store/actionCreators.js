@@ -1,4 +1,4 @@
-import * as actionTypes from '../actionTypes'
+import * as actionTypes from './actionTypes'
 
 export const getInputChangeAction = (value) => ({
     type: actionTypes.CHANGE_INPUT_VALUE,

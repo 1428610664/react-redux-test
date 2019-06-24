@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import todo from './todo'
+import { reducer as todo } from '../components/todoList/store'
 
 const reducer =  combineReducers({
     todo
